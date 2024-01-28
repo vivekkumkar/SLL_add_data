@@ -47,7 +47,7 @@ int main()
 	obj1.addatbeg(x);
 	cout<<"\n\n Showing List after addatbeg : ";
 	obj1.show();
-	cout<<"\n\n Enter data to add ar end : ";
+	cout<<"\n\n Enter data to add at end : ";
 	cin>>x;
 	obj1.addatend(x);
 	cout<<"\n Showing List after addatend : ";
@@ -134,4 +134,34 @@ void SLL::addatend(int x)
 		q->next=p;
 	}
 }
+*********************************8
 
+	output:-
+
+Enter List
+
+ Enter number of nodes : 5
+
+ Enter data : 10
+
+ Enter data : 20
+
+ Enter data : 30
+
+ Enter data : 40
+
+ Enter data : 50
+
+Showing List:-
+
+10 20 30 40 50
+
+Enter data to add at beginning : 100
+
+
+ Showing List after addatbeg : 100 10 20 30 40 50
+
+ Enter data to add at end : 200
+
+ Showing List after addatend : 100 10 20 30 40 50 200
+--------------------------------
